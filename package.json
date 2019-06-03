@@ -1,5 +1,8 @@
 {
     "name": "node-hello-world",
     "version": "1.0.0",
-    "description": "Hello world"
+    "description": "Hello World",
+    "scripts": {
+        "test": "echo Hello World."
+    }
 }
