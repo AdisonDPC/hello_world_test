@@ -8,6 +8,6 @@ env:
   - REMOTE_HOST=165.227.131.21
   - REMOTE_PORT=6622
 before_install:
-  - bash ./scripts/install.sh
+  - bash scripts/install.sh
 after_success:
-  - bash ./scripts/deploy.sh
+  - bash scripts/deploy.sh
