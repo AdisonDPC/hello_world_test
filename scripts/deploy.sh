@@ -8,4 +8,6 @@ set -x
 
 # ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s' < ./scripts/untar.sh
 
-ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
+# ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
+
+ssh -p $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
