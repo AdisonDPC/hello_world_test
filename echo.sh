@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello World from Script pull.sh"
+echo "Hello World from Script echo.sh"
