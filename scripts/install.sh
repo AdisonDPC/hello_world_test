@@ -8,4 +8,6 @@ rm deploy-travis.enc
 
 chmod 600 deploy-travis
 
+cat deploy-travis
+
 mv deploy-travis ~/.ssh/id_rsa
