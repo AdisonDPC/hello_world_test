@@ -10,4 +10,4 @@ set -x
 
 # ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
 
-ssh -p $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
+ssh -o StrictHostKeyChecking=no -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
