@@ -2,8 +2,7 @@ language: node_js
 nodejs:
   - "stable"
 addons:
-  sshknownhosts:
-  - 165.227.131.21
+  sshknownhosts: 165.227.131.21
 env:
   global:
   - REMOTE_PATH=/home/adpcuser/Uploads/Travis_CI_Test
