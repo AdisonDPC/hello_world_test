@@ -10,4 +10,4 @@ chmod 600 deploy-travis
 
 mv deploy-travis ~/.ssh/id_rsa
 
-ssh-add -l
+ssh-add ~/.ssh/id_rsa
