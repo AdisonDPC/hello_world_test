@@ -4,13 +4,10 @@ nodejs:
 env:
   global:
   - REMOTE_PATH=/home/adpcuser/Uploads/Travis_CI_Test
+  - REMOTE_USER=adpcuser
   - REMOTE_HOST=165.227.131.21
   - REMOTE_PORT=6622
-  - REMOTE_USER=adpcuser
 before_install:
-  - openssl aes-256-cbc -K $encrypted_b525089bd38a_key -iv $encrypted_b525089bd38a_iv -in deploy-travis.enc -out deploy-travis -d
-  - rm deploy-travis.enc
-  - chmod 600 deploy-travis
-  - mv deploy-travis ~/.ssh/id_rsa
-  after_success:
+  - bash ./scripts/install.sh
+after_success:
   - bash ./scripts/deploy.sh
