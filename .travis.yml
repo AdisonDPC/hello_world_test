@@ -1,6 +1,4 @@
 language: node_js
 node_js:
   - "stable"
-deploy:
-  - provider: script
-    script: bash pull.sh
+script: bash pull.sh
