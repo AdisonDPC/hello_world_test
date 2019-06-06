@@ -1,3 +1,3 @@
 #!/bin/bash
 
-git pull;
+echo "Hello World from Script pull.sh"
