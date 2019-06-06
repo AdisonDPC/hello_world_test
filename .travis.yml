@@ -7,6 +7,8 @@ env:
   - REMOTE_USER=adpcuser
   - REMOTE_HOST=165.227.131.21
   - REMOTE_PORT=6622
+before_script:
+  - chmod 600 deploy-travis && mv deploy-travis ~/.ssh/idrsa
 before_install:
   - bash ./scripts/install.sh
 after_success:
