@@ -1,6 +1,4 @@
-#!/usr/bin/env sh
-
-set -x
+#!/bin/bash
 
 # tar -czf package.tgz build && \
 
