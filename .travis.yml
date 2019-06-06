@@ -1,4 +1,7 @@
 language: node_js
 node_js:
   - "stable"
-script: bash pull.sh
+before_install:
+  - bash install.sh
+script: 
+  - bash echo.sh
