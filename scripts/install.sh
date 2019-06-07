@@ -8,4 +8,6 @@ eval "$(ssh-agent -s)"
 
 chmod 600 deploy-travis
 
+echo -e "Host $REMOTE_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+
 ssh-add deploy-travis

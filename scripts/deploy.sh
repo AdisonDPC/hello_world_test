@@ -8,4 +8,4 @@
 
 # ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
 
-ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'pwd'
+ssh -i deploy-travis -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'pwd'
