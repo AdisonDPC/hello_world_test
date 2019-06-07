@@ -8,4 +8,4 @@
 
 # ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
 
-ssh -i -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'pwd'
+ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'pwd'
