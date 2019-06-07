@@ -3,7 +3,7 @@ nodejs:
 - stable
 env:
   global:
-  - REMOTE_PATH=/home/adpcuser/Uploads/Travis_CI_Test
+  - REMOTE_PATH=Uploads/Travis_CI_Test
   - REMOTE_USER=adpcuser
   - REMOTE_HOST=165.227.131.21
   - REMOTE_PORT=6622
