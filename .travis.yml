@@ -3,10 +3,10 @@ nodejs:
 - stable
 env:
   global:
-  - REMOTE_PATH=Uploads/Travis_CI/Hello_World_Test
-  - REMOTE_USER=adpcuser
-  - REMOTE_HOST=165.227.131.21
-  - REMOTE_PORT=6622
+  - REMOTE_PATH=${REMOTE_PATH}
+  - REMOTE_USER=${REMOTE_USER}
+  - REMOTE_HOST=${REMOTE_HOST}
+  - REMOTE_PORT=${REMOTE_PORT}
 before_install:
 - bash scripts/install.sh
 after_success:
