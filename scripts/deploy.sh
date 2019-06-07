@@ -8,4 +8,4 @@
 
 # ssh -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'bash -s ls'
 
-ssh -o StrictHostKeyChecking=no -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'ls -la'
+ssh -i -vp $REMOTE_PORT $REMOTE_USER@$REMOTE_HOST 'pwd'
