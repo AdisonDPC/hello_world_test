@@ -1,6 +1,10 @@
 language: node_js
 nodejs:
   - stable
+branches:
+  only:
+  - gh-pages
+  - master
 env:
   global:
     - REMOTE_PATH=Uploads/Travis_CI/Hello_World_Test
