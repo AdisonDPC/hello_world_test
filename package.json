@@ -3,6 +3,6 @@
     "version": "1.0.0",
     "description": "Hello World",
     "scripts": {
-        "test": "echo Node JS: Echo Hello World (In GH Pages)."
+        "test": "echo Node JS: Echo Hello World [In GH Pages]."
     }
 }
