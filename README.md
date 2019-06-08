@@ -12,4 +12,4 @@ Hello World Test (Travis CI)
 
 ## GH-Pages
 
-https://adisondpc.github.io/hello_world_test
+[Link to GH Pages](https://adisondpc.github.io/hello_world_test){:target="_blank"}
