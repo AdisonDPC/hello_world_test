@@ -12,4 +12,5 @@ Hello World Test (Travis CI)
 
 ## GH-Pages
 
-[Link to GH Pages](https://adisondpc.github.io/hello_world_test){:target="_blank"}
+[Link to GH Pages](https://adisondpc.github.io/hello_world_test)
+Output: <a href="https://adisondpc.github.io/hello_world_test" target="_blank">Link to GH Pages</a>
