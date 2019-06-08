@@ -4,7 +4,13 @@ Repository implemented by AdisonDPC at 04/06/2019
 
 ## Testing in Travis CI
 
+### In Master
+
 [![Build Status](https://travis-ci.org/AdisonDPC/hello_world_test.svg?branch=master)](https://travis-ci.org/AdisonDPC/hello_world_test)
+
+### In GH-Pages
+
+[![Build Status](https://travis-ci.org/AdisonDPC/hello_world_test.svg?branch=gh-pages)](https://travis-ci.org/AdisonDPC/hello_world_test)
 
 ## Title
 

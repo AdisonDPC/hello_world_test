@@ -3,7 +3,6 @@ nodejs:
   - stable
 branches:
   only:
-  - gh-pages
   - master
 env:
   global:
