@@ -6,3 +6,11 @@ branches:
   - build_gh
 after_success:
   - bash scripts/deploy.sh
+deploy:
+  local_dir: build_gh
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: build_gh
