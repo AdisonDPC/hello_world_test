@@ -3,7 +3,7 @@ nodejs:
   - stable
 branches:
   only:
-  - build_do
+  - master
 env:
   global:
     - REMOTE_PATH=Uploads/Travis_CI/Hello_World_Test
