@@ -8,10 +8,10 @@ echo "REMOTE_PORT = ${REMOTE_PORT}"
 echo "REMOTE_USER = ${REMOTE_USER}"
 echo "REMOTE_HOST = ${REMOTE_HOST}"
 
-# openssl aes-256-cbc -K $encrypted_b525089bd38a_key -iv $encrypted_b525089bd38a_iv -in deploy-travis.enc -out deploy-travis -d
+openssl aes-256-cbc -K $encrypted_b525089bd38a_key -iv $encrypted_b525089bd38a_iv -in deploy-travis.enc -out deploy-travis -d
 
-# eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"
 
-# chmod 600 deploy-travis
+chmod 600 deploy-travis
 
-# ssh-add deploy-travis
+ssh-add deploy-travis
