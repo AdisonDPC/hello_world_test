@@ -2,6 +2,6 @@
 
 echo "Using Parcel (Deploy Script in GitHub Pages)."
 
-git checkout gh-pages
+cd ../build_gh
 
-git branch -a
+ls -la
