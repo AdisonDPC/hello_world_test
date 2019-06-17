@@ -1,5 +1,3 @@
 #!/bin/bash
 
-echo "Using Parcel (Deploy Script)."
-
-git checkout gh-pages
+echo "Using Parcel (Deploy Script in GitHub Pages)."

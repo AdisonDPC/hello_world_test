@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Using Parcel (Install Script)."
+echo "Using Parcel (Install Script in GitHub Pages)."

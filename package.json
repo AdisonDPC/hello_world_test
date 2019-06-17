@@ -3,10 +3,9 @@
     "version": "1.0.0",
     "description": "Hello World",
     "scripts": {
-        "test": "echo Node JS: Echo Hello World [In GH Pages].",
+        "test": "echo Node JS: Echo Hello World [In Master - Deploy on GitHub Pages].",
         "dev": "parcel serve src/index.html --open",
-        "build:do": "parcel build src/index.html -d build_do --public-url /",
-        "build:gh": "parcel build src/index.html -d build_gh --public-url /repo_name/"
+        "build:gh": "parcel build src/index.html -d build_gh --public-url /"
     },
     "devDependencies": {
         "cssnano": "^4.1.10"

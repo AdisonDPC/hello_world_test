@@ -3,6 +3,6 @@ nodejs:
   - stable
 branches:
   only:
-  - gh-pages
+  - build_gh
 after_success:
   - bash scripts/deploy.sh
