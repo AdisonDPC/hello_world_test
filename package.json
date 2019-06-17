@@ -5,7 +5,10 @@
     "scripts": {
         "test": "echo Node JS: Echo Hello World [In GH Pages].",
         "dev": "parcel serve src/index.html --open",
-        "build:do": "parcel build src/index.html -d build --public-url /",
-        "deploy": "git subtree push --prefix build origin gh-pages"
+        "build:do": "parcel build src/index.html -d build_do --public-url /",
+        "build:gh": "parcel build src/index.html -d build_gh --public-url /repo_name/"
+    },
+    "devDependencies": {
+        "cssnano": "^4.1.10"
     }
 }
