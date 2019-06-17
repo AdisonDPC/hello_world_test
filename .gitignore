@@ -1,1 +1,5 @@
 deploy-travis
+
+.cache
+
+node_modules

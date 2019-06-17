@@ -3,6 +3,11 @@
     "version": "1.0.0",
     "description": "Hello World",
     "scripts": {
-        "test": "echo Node JS: Echo Hello World [In Master - Deploy on Server]."
+        "test": "echo Node JS: Echo Hello World [In Master - Deploy on Server Digital Ocean].",
+        "dev": "parcel serve src/index.html --open",
+        "build:do": "parcel build src/index.html -d build_do --public-url /"
+    },
+    "devDependencies": {
+        "cssnano": "^4.1.10"
     }
 }
