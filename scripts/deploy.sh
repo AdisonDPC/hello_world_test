@@ -2,6 +2,4 @@
 
 echo "Using Parcel (Deploy Script in GitHub Pages)."
 
-cd build_gh
-
-ls -la
+git subtree push --prefix build_gh gh-pages
