@@ -11,8 +11,6 @@ env:
   - REMOTE_HOST=165.227.131.21
   - REMOTE_PORT=6622
 before_install:
-- openssl aes-256-cbc -K $encrypted_b525089bd38a_key -iv $encrypted_b525089bd38a_iv
-  -in deploy-travis.enc -out deploy-travis -d
 - bash scripts/install.sh
 after_success:
 - bash scripts/deploy.sh
