@@ -8,7 +8,7 @@ env:
   global:
   - REMOTE_PATH=Uploads/Travis_CI/Hello_World_Test
   - REMOTE_USER=adpcuser
-  - REMOTE_HOST=165.227.131.21
+  - REMOTE_HOST=165.227.171.172
   - REMOTE_PORT=6622
 before_install:
 - bash scripts/install.sh
