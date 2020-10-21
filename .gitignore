@@ -1,5 +1,10 @@
 shell/*
 
+<<<<<<< HEAD
+=======
+deploy-travis
+
+>>>>>>> b5c55e7860509a670a36bf11804263f559636232
 .cache
 
 node_modules

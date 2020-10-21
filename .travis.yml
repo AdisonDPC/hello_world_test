@@ -1,5 +1,6 @@
 language: node_js
 nodejs:
+<<<<<<< HEAD
   - stable
 branches:
   only:
@@ -14,3 +15,19 @@ deploy:
   keep_history: true
   on:
     branch: build_gh
+=======
+- stable
+branches:
+  only:
+  - master
+env:
+  global:
+  - REMOTE_PATH=Uploads/Travis_CI/Hello_World_Test
+  - REMOTE_USER=adpcuser
+  - REMOTE_HOST=165.227.171.172
+  - REMOTE_PORT=6622
+before_install:
+- bash scripts/install.sh
+after_success:
+- bash scripts/deploy.sh
+>>>>>>> b5c55e7860509a670a36bf11804263f559636232

@@ -3,9 +3,15 @@
     "version": "1.0.0",
     "description": "Hello World",
     "scripts": {
+<<<<<<< HEAD
         "test": "echo Node JS: Echo Hello World [In Master - Deploy on GitHub Pages].",
         "dev": "parcel serve src/index.html --open",
         "build:gh": "parcel build src/index.html -d build_gh --public-url /hello_world_test/"
+=======
+        "test": "echo Node JS: Echo Hello World [In Master - Deploy on Server Digital Ocean].",
+        "dev": "parcel serve src/index.html --open",
+        "build:do": "parcel build src/index.html -d build_do --public-url /"
+>>>>>>> b5c55e7860509a670a36bf11804263f559636232
     },
     "devDependencies": {
         "cssnano": "^4.1.10",
